@@ -35,6 +35,8 @@ namespace EvaluationSampleCode.UnitTests
         public void ToString_WithValidNumber_ReturnsString()
         {
             Assert.AreEqual("(012)345-6789", _validPhoneNumber.ToString());
+
+            // Rajout de commentaire pour la pull request
         }
     }
 }
